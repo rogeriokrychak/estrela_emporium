@@ -1,0 +1,100 @@
+
+#img{
+    width: 198px;
+    height: 140px;
+    float: left;
+
+}
+
+/*Style of header*/
+header {
+    background-color: #f78b00;
+    padding: 1px;
+    text-align: center;
+    font-size: 28px;
+}
+
+a:link{ 
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+}
+
+/*Style for flexboxes*/
+section{
+    display: -webkit-flex;
+    display: flex;
+    
+}
+
+/*style for navigation menu*/
+nav{
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #00285f;
+    max-width: 250px;
+    height: 412px;
+    padding: 10px;
+}
+
+/*Style the list inside the menu*/
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    color: black;
+}
+
+/*Style for article*/
+article{
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-image: url(beer2.jpg);
+    background-repeat: no-repeat;
+    background-position: 25%;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+}
+
+#textinitial{
+    font-size: 25px;
+    text-align: left;
+    padding-top: 10px;
+    color: black;
+    list-style-type: none;
+    font-weight: bolder;
+}
+
+#input {
+    font-size: 20px;
+    background-color: #f78b00;
+}
+
+/*Style for footer*/
+footer{
+    background-color: #f78b00;
+    padding: 2px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+p {
+    text-align: left;
+}
+
+#rede {
+    width: 38px;
+    height: 28px;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 700px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }

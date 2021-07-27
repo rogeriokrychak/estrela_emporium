@@ -1,0 +1,13 @@
+<h1>CADASTRAR CLIENTES</h1>
+<form action="index.php?link=cliente.php" method="post">
+    Nome: <input type="text" name="nome" id="input" maxlength="40" placeholder="CAMPO OBRIGATÓRIO" required><br>
+    Sexo: <input type="radio" name="sexo" id="input" value="M" checked>Masculino
+          <input type="radio" name="sexo" id="input" value="F">Feminino<br>
+    Email: <input type="text" name="email" id="input" maxlength="40" required><br>
+    Rua: <input type="text" name="rua" id="input"><br>
+    Telefone: <input type="text" name="telefone" id="input" placeholder="41 9999-9999" maxlength="15"><br>
+    Observação:<br>
+    <textarea name="obs" id="input" cols="50" rows="5"></textarea><br>
+    <input type="submit" id='input' value="CADASTRAR">
+    <input type="reset" id='input' value="LIMPAR CAMPOS">
+</form>
